@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%}To-Do List{% endblock %}</title>
+</head>
+<body>
+
+{% block content %}
+<h1>TO-DO LIST</h1>
+<p>Here are some useful urls:<br><br>
+    1. http://127.0.0.1:8000/tasks/  -  list of tasks<br><br>
+    2. http://127.0.0.1:8000/tasks/create/  -  create a task<br><br>
+    3. http://127.0.0.1:8000/tasks/(task_id)/  -  view a task<br><br>
+    4. http://127.0.0.1:8000/tasks/(task_id)/update  -  update a task<br><br>
+    5. http://127.0.0.1:8000/tasks/(task_id)/delete  -  delete a task
+</p>
+{% endblock %}
+
+    
+</body>
+</html>
